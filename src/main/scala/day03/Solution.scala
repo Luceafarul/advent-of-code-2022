@@ -27,7 +27,6 @@ object Solution extends IOApp.Simple {
       }.sum
       _ <- IO(println(s"Result 1: $part1Result"))
       _ <- IO(println(s"Result 2: $part2Result"))
-//      _ <- IO(println(s"Test: $lettersAndWeight"))
     } yield ()
 
   private def readFileFromResources(filename: String): IO[List[String]] =
